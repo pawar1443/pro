@@ -16,7 +16,7 @@ class lion extends prey{
         System.out.println("lion also hunts and eats its pray");
     }
 }
-public class polymorphism {
+public class poly {
     public static void main(String args[]){
         prey p;
 
