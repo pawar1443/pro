@@ -7,7 +7,7 @@ import java.nio.file.*;
 public class processing {
     public static void main(String args[]){
         try{
-            Stream<String> lines = Files.lines(Paths.get("data.csv"));
+            Stream<String> lines = Files.lines(Paths.get("pro/data_processing/data.csv"));
             lines.forEach(System.out::println);
             lines.close();
         }catch(IOException e){
